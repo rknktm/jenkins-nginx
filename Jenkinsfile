@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Test') {
             steps {
-                sh 'echo "Ok doki" '
+               echo "========pipeline executed successfully ========"
            
             }
         }
